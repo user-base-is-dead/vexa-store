@@ -1,0 +1,129 @@
+.hero {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+}
+
+.hero__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(17, 17, 17, 0.75) 0%,
+    rgba(17, 17, 17, 0.35) 60%,
+    rgba(17, 17, 17, 0.5) 100%
+  );
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-xl);
+  max-width: 700px;
+}
+
+.hero__tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+}
+
+.hero__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 400;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: var(--space-md);
+}
+
+.hero__title em {
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+.hero__text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-lg);
+  max-width: 480px;
+}
+
+.hero__actions {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.hero__btn-outline {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+.hero__btn-outline:hover {
+  background: #fff;
+  color: var(--color-dark);
+  border-color: #fff;
+}
+
+.hero__stats {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-xl);
+  margin-top: auto;
+}
+
+.hero__stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__stat-num {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1;
+}
+
+.hero__stat-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: 75vh;
+  }
+
+  .hero__stats {
+    gap: var(--space-lg);
+  }
+
+  .hero__stat-num {
+    font-size: 1.5rem;
+  }
+}

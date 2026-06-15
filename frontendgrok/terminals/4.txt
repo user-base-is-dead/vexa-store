@@ -1,0 +1,20 @@
+---
+pid: 19604
+cwd: "D:\CodingPractice\creativeSite\frontendgrok"
+command: "Stop-Process -Id 14304,12580,16264,13116 -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Set-Location \"D:\\CodingPractice\\creativeSite\\frontendgrok\"; npm run dev -- --host --port 5173"
+started_at: 2026-06-15T06:45:16.150Z
+running_for_ms: 780010   
+---
+
+> frontend@0.0.0 dev
+> vite --host --port 5173
+
+
+  VITE v8.0.16  ready in 164 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.31.99:5173/
+12:18:00 PM [vite] (client) page reload src/main.jsx
+12:18:00 PM [vite] vite.config.js changed, restarting server...
+12:18:00 PM [vite] (client) page reload index.html
+12:18:00 PM [vite] server restarted.

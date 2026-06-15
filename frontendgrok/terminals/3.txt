@@ -1,0 +1,17 @@
+---
+pid: 13116
+cwd: "D:\CodingPractice\creativeSite\frontendgrok"
+command: "Set-Location \"D:\\CodingPractice\\creativeSite\\frontendgrok\"; npm run dev -- --host"
+started_at: 2026-06-15T06:44:30.175Z
+running_for_ms: 824995   
+---
+
+> frontend@0.0.0 dev
+> vite --host
+
+
+  VITE v8.0.16  ready in 147 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.31.99:5173/
+12:15:16 PM [vite] (client) page reload index.html
