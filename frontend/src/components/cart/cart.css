@@ -1,0 +1,10 @@
+.cart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #111;
+}
+
+.cart-btn svg {
+  display: block;
+}
