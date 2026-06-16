@@ -7,13 +7,85 @@
     width: 100%;
     flex: 1;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(
+    135deg,
+    rgba(17, 17, 17, 0.75) 0%,
+    rgba(17, 17, 17, 0.35) 60%,
+    rgba(17, 17, 17, 0.5) 100%
+  );
     pointer-events: none;
 }
 
+.hero-content {
+    justify-self: center;
+    position: relative;
+    width: fit-content;
+    max-width: 720px;
+    padding: 2rem 3rem;
+    text-align: left;
+}
+
+.hero-title {
+    font-family: var(--font-serif);
+    font-weight: 200;
+    line-height: 1.1;
+    font-size: 4.5rem;
+    color: white;
+}
+
+.hero-title em {
+    font-weight: 200;
+    color: var(--color-accent);
+}
+
+.hero-text {
+    line-height: 1.1;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 30px;
+    color: white;
+}
+
+.hero-action {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.shop-button {
+    padding: 0.875rem 2rem;
+    background-color: var(--color-light-black);
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: var(--color-accent);
+    transition: 0.3s ease;
+}
+
+.categories-button {
+    padding: 0.875rem 2rem;
+    border: 1px solid white;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.categories-button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+}

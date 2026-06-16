@@ -7,6 +7,8 @@
     --font-sans: 'Outfit', system-ui, sans-serif;
 
     --color-accent: #c4a265;
+    --color-black: #000;
+    --color-light-black: #0e0d0d;
 
     --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
