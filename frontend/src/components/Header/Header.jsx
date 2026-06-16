@@ -1,5 +1,5 @@
-import { Search } from "../search/search";
-import { Cart } from "../cart/cart";
+import { Search } from "../search/Search";
+import { Cart } from "../cart/Cart";
 import './Header.css';
 import { navLinks } from "../../utils/navLinks";
 import { NavLink } from 'react-router-dom'
@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="header-box">
 
         <div className="header-announcement">
-          <p className="announcement-text container">Free shipping on orders above $20,139. Use code WELCOM10</p>
+          <p className="announcement-text container">Free shipping on orders above $20,139. Use code WELCOME10</p>
         </div>
 
         <div className="header-main container">
