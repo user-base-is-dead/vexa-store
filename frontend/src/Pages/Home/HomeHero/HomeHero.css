@@ -80,7 +80,7 @@
     transition: 0.3s ease;
 }
 
-.categories-button {
+.explore-button {
     padding: 0.875rem 2rem;
     border: 1px solid white;
     color: white;
@@ -89,20 +89,23 @@
     transition: 0.3s ease;
 }
 
-.categories-button:hover {
+.explore-button:hover {
     background-color: white;
     color: black;
     transition: 0.3s ease;
 }
 
 .hero-stats {
-    position: absolute;
+    position: relative;
     display: flex;
     color: white;
-    gap: 3rem;
+    gap: 10rem;
     left: 0;
+    font-size: 1.2rem;
     /* bottom: rem; */
+    margin-top: 40px;
     z-index: 1;
+    justify-self: center;
 }
 
 .hero-stat {
@@ -110,7 +113,7 @@
 }
 
 .hero-stat-num {
-    text-align: start;
+    text-align: center;
     font-family: var(--font-serif);
-    font-size: 2rem;
+    font-size: 3rem;
 }

@@ -17,7 +17,7 @@ export const HomeHero = () => {
 
           <div className="hero-action">
             <a href="/shop" className="shop-button">SHOP NOW</a>
-            <a href="/categories" className="categories-button">EXPLORE</a>
+            <a href="/categories" className="explore-button">EXPLORE</a>
           </div>
 
         </div>
