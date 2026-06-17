@@ -91,5 +91,16 @@
 }
 
 .hero-stats {
+    position: relative;
+    display: flex;
     color: white;
+}
+
+.hero-stat {
+    display: grid;
+}
+
+.hero-stat-num {
+    text-align: center;
+    font-family: var(--font-serif);
 }
